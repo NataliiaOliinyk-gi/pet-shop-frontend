@@ -1,0 +1,134 @@
+.cartItemContainer {
+    border: 1px solid var(--light-border-color);
+    border-radius: 12px;
+    display: flex;
+    gap: 32rem;
+
+    transition: ease-in-out 500ms;
+}
+
+.cartItemContainer:hover {
+    box-shadow: 0 0 10px 0.1px #dddddd;
+    transform: scale(0.95);
+}
+
+.imageContainer {
+    width: 200rem;
+    height: 100%;
+    border-radius: 12px 0 0 12px;
+    border: 1px solid var(--light-border-color);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.descriptionsContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32rem;
+    padding: 32rem 32rem 32rem 0;
+}
+
+.titleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+}
+
+.priceContainer {
+    display: flex;
+    gap: 32rem;
+    align-items: center;
+}
+
+.title {
+    font-size: 20rem;
+    font-weight: 500;
+    line-height: 130%;
+    color: var(--main-text-color);
+    white-space: normal;
+}
+
+.title:hover {
+    color: var(--second-text-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .title {
+        font-size: 18rem;
+    }
+
+    .priceContainer {
+        gap: 18rem;
+    }
+
+    .cartItemContainer {
+        gap: 20rem;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .imageContainer {
+        width: 180rem;
+    }
+}
+
+@media screen and (max-width: 830px) {
+
+    .title {
+        font-size: 20rem;
+    }
+
+    .priceContainer {
+        gap: 28rem;
+    }
+
+    .cartItemContainer {
+        gap: 28rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cartItemContainer {
+        gap: 24rem;
+
+    }
+
+    .descriptionsContainer {
+        flex: 1;
+        gap: 24rem;
+        padding: 24rem 24rem 24rem 0;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .imageContainer {
+        width: 150rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .imageContainer {
+        width: 150rem;
+    }
+
+    .title {
+        font-size: 18rem;
+    }
+
+    .priceContainer {
+        gap: 16rem;
+
+    }
+}

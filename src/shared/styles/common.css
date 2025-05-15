@@ -1,0 +1,33 @@
+html {
+    font-size: 1px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 960px) {
+
+    html {
+        font-size: 0.9px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    html {
+        font-size: 0.8px;
+    }
+}
+
+@media screen and (max-width: 432px) {
+
+    html {
+        font-size: 0.7px;
+    }
+}

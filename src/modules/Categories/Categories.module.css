@@ -1,0 +1,12 @@
+.categoriesBox {
+    width: 100%;
+    display: flex;
+    gap: 32rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+}

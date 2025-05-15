@@ -1,0 +1,39 @@
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32rem;
+}
+
+.textFieldsBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16rem;
+}
+
+.btnBox {
+    width: 100%;
+}
+
+@media screen and (max-width: 1180px) {
+
+    .form {
+        gap: 24rem;
+    }
+
+    .textFieldsBox {
+        gap: 14rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .form {
+        gap: 16rem;
+    }
+
+    .textFieldsBox {
+        gap: 10rem;
+    }
+}

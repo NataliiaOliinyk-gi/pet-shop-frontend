@@ -1,0 +1,58 @@
+.textField {
+    border: 1px solid var(--light-border-color);
+    border-radius: 6px;
+    padding: 16rem 32rem;
+    width: 100%;
+
+    font-size: 20rem;
+    font-weight: 500;
+    line-height: 130%;
+    color: var(--main-text-color);
+
+    transition: ease-in-out 500ms;
+}
+
+.textField::placeholder {
+    font-size: 20rem;
+    font-weight: 500;
+    line-height: 130%;
+    color: var(--light-text-color);
+}
+
+.textField:focus {
+    border-color: var(--dark-border-color);
+    outline: none;
+}
+
+.textField:hover {
+    background-color: var(--hover-background-color);
+}
+
+.textFieldError {
+    width: 100%;
+    color: red;
+    font-size: 18rem;
+    margin: 14rem 0;
+}
+
+.textFieldWhite {
+    border-color: var(--white-border-color);
+    background-color: transparent;
+    color: var(--white-text-color);
+}
+
+.textFieldWhite::placeholder {
+    color: var(--white-text-color);
+}
+
+.textFieldWhite:hover {
+    background-color: var(--discount-background-color);
+}
+
+@media screen and (max-width: 430px) {
+
+    .textField {
+       font-size: 16rem;
+    }
+
+}

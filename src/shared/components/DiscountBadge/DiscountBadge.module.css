@@ -1,0 +1,32 @@
+.discountBadge {
+    background-color: var(--main-background-color);
+    border-radius: 6px;
+    padding: 4px 8px;
+    height: 34px;
+
+    color: var(--white-text-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+
+    display: block;
+}
+
+@media screen and (max-width: 896px) {
+
+    .discountBadge {
+        padding: 4rem 8rem;
+        height: 34rem;
+        font-size: 20rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .discountBadge {
+        padding: 4rem 8rem;
+        height: 28rem;
+        font-size: 16rem;
+    }
+}
