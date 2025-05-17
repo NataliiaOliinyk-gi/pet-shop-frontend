@@ -70,7 +70,7 @@
         height: 36rem;
     }
 
-    .checkboxBorder{
+    .checkboxBorder {
         width: 36rem;
         height: 36rem;
     }
@@ -84,17 +84,19 @@
 @media screen and (max-width: 432px) {
 
     .checkboxBox {
-        width: 36px;
-        height: 36px;
+        width: 32px;
+        height: 32px;
     }
 
-    .checkboxBorder{
-        width: 36px;
-        height: 36px;
+    .checkboxBorder {
+        width: 32px;
+        height: 32px;
     }
 
     .checkboxCheck {
-        width: 24px;
-        height: 24px;
+        width: 23px;
+        height: 23px;
+        top: 5px;
+        left: 5px;
     }
 }
