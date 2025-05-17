@@ -56,12 +56,13 @@
 
     .menu {
         position: absolute;
-        top: -20rem;
-        width: 220rem;
+        top: -50rem;
+        left: -50rem;
+        width: 400rem;
         background-color: white;
         flex-direction: column;
-        gap: 20rem;
-        padding: 40rem 30rem;
+        gap: 30rem;
+        padding: 60rem 30rem;
         display: none;
         box-shadow: 0 0 10rem rgba(0, 0, 0, 0.1);
         border-radius: 8rem;
@@ -80,6 +81,6 @@
     }
 
     .link {
-        font-size: 15px;
+        font-size: 18px;
     }
 }
