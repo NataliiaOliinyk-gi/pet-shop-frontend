@@ -12,6 +12,11 @@ const LocationMap = ({ address }) => {
 
     const googleMapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
+    console.log(
+        "MAP KEY PROD:",
+        import.meta.env.VITE_GOOGLE_MAPS_API_KEY?.slice(0, 15)
+    );
+
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
         googleMapsApiKey: googleMapsApiKey,
